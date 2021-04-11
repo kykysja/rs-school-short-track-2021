@@ -22,3 +22,15 @@ function removeKFromList(/* l, k */) {
 }
 
 module.exports = removeKFromList;
+
+/* const res = [];
+  for (let i = 0; i < l.length; i++) {
+    if (l[i] !== k) {
+      res.push(l[i]);
+    }
+  }
+  return res; */
+
+// Да, я тоже сначала думал, что это массив.
+// Но оказалось это объект ListNode у которого value: первое число,
+// а next: следующий ListNode со следующим числом и т.д. до последнего числа исходного массива
